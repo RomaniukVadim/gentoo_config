@@ -1,0 +1,10 @@
+>=app-misc/tracker-1.6.2 -gstreamer ffmpeg
+# required by sys-devel/clang-3.8.0-r100::gentoo
+# required by dev-libs/libclc-0.2.0_pre20160209::gentoo
+# required by media-libs/mesa-9999::ROKO__[opencl]
+# required by net-libs/webkit-gtk-2.10.9::gentoo[egl]
+# required by gnome-extra/sushi-3.18.0::gentoo
+# required by gnome-base/nautilus-3.18.5::gentoo[previewer]
+# required by gnome-extra/nautilus-tracker-tags-1.6.2::gentoo
+# required by app-misc/tracker-1.6.2::gentoo[nautilus]
+>=sys-devel/llvm-3.8.0-r2 -debug

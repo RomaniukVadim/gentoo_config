@@ -1,0 +1,9 @@
+net-misc/iputils -caps -filecaps
+# required by dev-qt/qtcore-5.6.1::gentoo
+# required by dev-util/cmake-3.5.2-r1::gentoo[qt5]
+# required by sys-devel/llvm-3.8.0-r2::gentoo
+# required by media-libs/mesa-11.2.2::gentoo[llvm]
+# required by virtual/opengl-7.0-r1::gentoo
+# required by dev-qt/qtgui-5.6.1::gentoo
+# required by dev-qt/qtwidgets-5.6.1::gentoo
+>=dev-libs/libpcre-8.39 pcre16

@@ -1,0 +1,74 @@
+>=app-misc/tracker-1.6.2 -gstreamer ffmpeg
+# required by gnome-extra/gnome-contacts-3.18.1::gentoo
+# required by gnome-base/gnome-core-apps-3.18.0::gentoo
+# required by gnome-base/gnome-3.18.0::gentoo
+# required by gnome (argument)
+>=dev-libs/folks-0.11.2 eds
+# required by gnome-extra/gnome-user-share-3.18.1-r1::gentoo
+# required by gnome-base/gnome-extra-apps-3.18.0-r3::ROKO__[share]
+# required by gnome-base/gnome-3.18.0::gentoo[extras]
+# required by gnome (argument)
+>=www-servers/apache-2.4.20 apache2_modules_auth_digest
+# required by dev-libs/folks-0.11.2::gentoo[eds]
+# required by gnome-extra/gnome-contacts-3.18.1::gentoo
+# required by gnome-base/gnome-core-apps-3.18.0::gentoo
+# required by gnome-base/gnome-3.18.0::gentoo
+# required by gnome (argument)
+>=gnome-extra/evolution-data-server-3.18.5 vala
+# required by media-video/cheese-3.18.1-r1::gentoo
+# required by net-im/empathy-3.12.12::gentoo[v4l]
+# required by gnome-base/gnome-core-apps-3.18.0::gentoo
+# required by gnome-base/gnome-3.18.0::gentoo
+# required by gnome (argument)
+>=media-libs/gst-plugins-base-1.6.3 theora
+# required by media-gfx/gnome-photos-3.18.3-r1::gentoo
+# required by gnome-base/gnome-extra-apps-3.18.0-r3::ROKO__[tracker]
+# required by gnome-base/gnome-3.18.0::gentoo[extras]
+# required by gnome (argument)
+>=media-plugins/grilo-plugins-0.2.17 upnp-av tracker
+# required by net-voip/telepathy-gabble-0.18.3::gentoo[-gnutls]
+# required by net-im/telepathy-connection-managers-2-r2::gentoo[-msn,xmpp]
+# required by net-im/empathy-3.12.12::gentoo
+# required by gnome-base/gnome-core-apps-3.18.0::gentoo
+# required by gnome-base/gnome-3.18.0::gentoo
+# required by gnome (argument)
+>=dev-libs/openssl-1.0.2h-r1 -bindist
+# required by media-gfx/gnome-photos-3.18.3-r1::gentoo
+# required by gnome-base/gnome-extra-apps-3.18.0-r3::ROKO__[tracker]
+# required by gnome-base/gnome-3.18.0::gentoo[extras]
+# required by gnome (argument)
+>=dev-libs/libgdata-0.17.4-r1 gnome-online-accounts
+# required by x11-wm/mutter-3.18.4::gentoo[kms]
+# required by gnome-base/gnome-shell-3.18.5::gentoo
+# required by gnome-base/gdm-3.18.3::gentoo
+# required by gnome-base/gnome-3.18.0::gentoo
+# required by gnome (argument)
+>=media-libs/clutter-1.24.2 egl
+# required by media-libs/clutter-1.24.2::gentoo[egl]
+# required by x11-wm/mutter-3.18.4::gentoo[kms]
+# required by gnome-base/gnome-shell-3.18.5::gentoo
+# required by gnome-base/gdm-3.18.3::gentoo
+# required by gnome-base/gnome-3.18.0::gentoo
+# required by gnome (argument)
+>=media-libs/cogl-1.22.0-r2 gles2
+# required by gnome-base/gdm-3.18.3::gentoo
+# required by gnome-base/gnome-shell-3.18.5::gentoo
+# required by app-eselect/eselect-gnome-shell-extensions-20120911::gentoo
+# required by gnome-extra/gnome-shell-extensions-3.18.4::gentoo
+# required by gnome-base/gnome-3.18.0::gentoo[classic]
+# required by gnome (argument)
+>=sys-auth/pambase-20150213 systemd
+# required by sys-apps/systemd-230-r2::gentoo
+# required by gnome-base/gdm-3.18.3::gentoo
+# required by gnome-base/gnome-shell-3.18.5::gentoo
+# required by app-eselect/eselect-gnome-shell-extensions-20120911::gentoo
+# required by gnome-extra/gnome-shell-extensions-3.18.4::gentoo
+# required by gnome-base/gnome-3.18.0::gentoo[classic]
+# required by gnome (argument)
+>=sys-apps/dbus-1.10.8-r1 systemd
+# required by media-plugins/grilo-plugins-0.2.17::gentoo
+# required by media-gfx/gnome-photos-3.18.3-r1::gentoo
+# required by gnome-base/gnome-extra-apps-3.18.0-r3::ROKO__[tracker]
+# required by gnome-base/gnome-3.18.0::gentoo[extras]
+# required by gnome (argument)
+>=media-libs/grilo-0.2.15 playlist

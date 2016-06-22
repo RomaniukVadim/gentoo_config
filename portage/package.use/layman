@@ -1,0 +1,4 @@
+app-portage/layman git subversion 
+>=media-video/vlc-2.2.3  -qt4 -qt5
+>=sys-libs/zlib-1.2.8-r1 minizip
+
