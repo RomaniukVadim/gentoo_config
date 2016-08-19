@@ -1,0 +1,3 @@
+app-editors/emacs games gconf gfile gsettings gzip-el imagemagick  sound toolkit-scroll-bars wide-int xft
+>=app-emacs/emacs-common-gentoo-1.5 games
+

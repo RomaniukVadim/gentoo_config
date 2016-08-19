@@ -1,27 +1,26 @@
 CFLAGS="-march=corei7 -O2 -pipe"
 CXXFLAGS="${CFLAGS}"
-MAKEOPTS="-j5"
 CHOST="x86_64-pc-linux-gnu"
-ABI_X86="32 64"
-
-USE="X bindist alsa ao openal vorbis ffmpeg python icubluetooth infinality pulseaudio gnome qt5 -qt4 networkmanager unicode curl taglib"
+ABI_X86="64 32"
 
 ACCEPT_KEYWORDS="~amd64"
 ACCEPT_LICENSE="* @EULA"
 
+USE="bindist alsa python X icu gnome networkmanager infinality pulseaudio"
+
 ALSA_CARDS="hda-intel"
-INPUT_DEVICES="evdev synaptics"
-VIDEO_CARDS="intel i965 nvidia"
-CPU_FLAGS_X86="mmx mmxext sse sse2 sse3"
+INPUT_DEVICES="synaptics evdev"
+VIDEO_CARDS="intel nvidia"
 
 LINGUAS="en ru"
+
+MAKEOPTS="-j5"
+CPU_FLAGS_X86="mmx mmxext sse sse2 sse3"
 PORTDIR="/usr/portage"
 DISTDIR="${PORTDIR}/distfiles"
 PKGDIR="${PORTDIR}/packages"
 
 GENTOO_MIRRORS="rsync://gentoo.bloodhost.ru/gentoo-distfiles ftp://gentoo.bloodhost.ru/ http://gentoo.bloodhost.ru/ ftp://xeon.gentoo.ru/mirrors/gentoo/distfiles/ http://mirror.yandex.ru/gentoo-distfiles/ ftp://mirror.yandex.ru/gentoo-distfiles/ http://gentoo.iteam.net.ua/"
+GRUB_PLATFORMS=efi-64
 
-#Layman
 source /var/lib/layman/make.conf
-#for some local ebuilds to test, have to be after line for layman above!
-PORTDIR_OVERLAY="/usr/local/portage/ ${PORTDIR_OVERLAY}"

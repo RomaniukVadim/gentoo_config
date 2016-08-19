@@ -1,8 +1,0 @@
->=app-crypt/pinentry-0.9.7 gnome-keyring
->=dev-libs/keybinder-0.3.1-r200:0 python
->=x11-libs/vte-0.28.2-r207:0 python
-
-# required by media-sound/pulseaudio-8.0::gentoo[alsa-plugin,alsa]
-# required by media-sound/pavucontrol-3.0::gentoo
-# required by pavucontrol (argument)
->=media-plugins/alsa-plugins-1.1.1 pulseaudio
