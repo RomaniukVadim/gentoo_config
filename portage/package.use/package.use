@@ -1,0 +1,219 @@
+dev-libs/libpcre pcre16
+app-misc/tracker -ffmpeg
+media-libs/libmygpo-qt qt4
+x11-drivers/nvidia-drivers compat uvm acpi
+x11-libs/cairo xcb utils aqua directfb gles2
+media-gfx/blender python_targets_python3_5 player fftw openimageio
+sys-libs/ncurses tinfo
+net-misc/curl -curl_ssl_*  curl_ssl_openssl
+app-emulation/wine -vaapi
+dev-qt/qtgui libinput gles2
+dev-python/pycurl -curl_ssl_* curl_ssl_nss
+dev-libs/qcustomplot qt5
+media-libs/libmypaint gegl
+x11-libs/qscintilla qt5
+dev-ruby/activerecord postgres
+net-wireless/bluez test-programs deprecated
+sys-libs/binutils-libs multitarget
+dev-qt/qtcore qt3support
+dev-qt/qtgui qt3support
+dev-python/PyQt5 -python_targets_python2_7 gui widgets 
+dev-qt/qtgui -qt3support
+dev-qt/qtopengl qt3support
+dev-python/PyQt4 compat webkit
+dev-db/freetds mssql
+xfce-base/thunar udisks
+sys-apps/file -python
+dev-python/numpy lapack
+media-libs/gd fontconfig
+gnome-base/libgnomecanvas glade
+net-analyzer/rrdtool graph
+sys-devel/autogen libopts
+net-analyzer/wireshark lua c-ares ipv6 portaudio snmp  kerberos threads smi snappy spandsp sshdump tfshark  adns androiddump ciscodump libssh
+dev-qt/qtsql qt3support
+sys-fs/ntfs3g  ntfsprogs suid
+net-libs/libbtbb wireshark-plugins
+dev-java/swt cairo
+media-sound/audacious -gtk
+media-plugins/audacious-plugins -gtk
+x11-misc/redshift geoclue
+dev-python/PyQt5 webkit printsupport network
+app-text/poppler qt5
+dev-qt/qtwebkit printsupport
+sys-process/tini static
+dev-libs/botan threads
+media-libs/libvpx svc
+dev-qt/qtwebchannel qml
+dev-qt/qtwebkit -exceptions
+dev-qt/qtwebengine widgets
+net-misc/openvpn iproute2
+dev-db/sqlmap ntlm
+virtual/ssh minimal
+app-crypt/hashcat fglrx
+dev-ruby/did_you_mean ruby_targets_ruby24
+virtual/rubygems  ruby_targets_ruby24
+dev-ruby/rubygems ruby_targets_ruby24
+app-text/texlive-core xetex cjk
+dev-lang/dmd -ldc2-0_16 doc selfhost examples -gdc-4_9_4 -ldc2-1_1 -tools
+dev-qt/qtsingleapplication qt5
+dev-qt/qtlockedfile qt5
+app-text/texlive extra texi2html xetex cjk context detex dvi2tty epspdf games graphics humanities jadetex luatex metapost music pdfannotextractor pstricks publishers science tex4ht 
+dev-lang/php apache2  mysqli
+app-eselect/eselect-php apache2
+net-analyzer/nmap ncat ndiff nmap-update nping use zenmap
+dev-ruby/json ruby_targets_ruby24
+dev-ruby/test-unit ruby_targets_ruby24
+dev-python/asn1crypto python_targets_python3_5
+dev-ruby/xmlrpc ruby_targets_ruby24
+app-editors/emacs cairo dynamic-loading games gconf gfile gsettings gzip-el libxml2  toolkit-scroll-bars  xft
+app-emacs/emacs-common-gentoo games
+sys-auth/polkit-qt qt5
+dev-libs/libdbusmenu-qt qt5
+www-client/w3m imlib
+dev-ruby/minitest ruby_targets_ruby24
+dev-ruby/metasploit-payloads -ruby_targets_ruby21
+net-misc/curl curl_ssl_nss -curl_ssl_openssl
+dev-python/numpy lapack
+dev-lang/perl ithreads
+app-i18n/ibus  vala
+media-sound/wildmidi -openal
+net-analyzer/rrdtool -python_single_target_python2_7
+media-libs/libtxc_dxtn abi_x86_32
+net-dns/bind dlz -threads
+net-misc/electrum qt4 cli qrcode sync email
+net-misc/cpp-ethereum cuda opencl
+dev-libs/boost tools
+net-im/telegram-cli lua
+app-admin/conky apcupsd eve  ical imlib iostats irc lua-cairo lua-imlib lua-rsvg nano-syntax wifi 
+net-dns/dnsmasq script
+net-misc/spice-gtk usbredir
+app-emulation/qemu -spice
+media-libs/mesa d3d9  opencl -vaapi
+ media-sound/ncmpcpp clock outputs visualizer
+app-emulation/qemu -qemu_user_targets_i386 -qemu_softmmu_targets_i386
+dev-qt/qtgui egl
+dev-util/codeblocks contrib static-libs
+sys-apps/util-linux tty-helpers
+net-p2p/deluge console geoip sound webinterface
+dev-libs/xmlsec nss
+app-text/wv tools
+sys-libs/libcxxrt -libunwind
+media-libs/sdl2-mixer mod mikmod modplug
+virtual/ffmpeg sdl libav
+media-video/ffmpeg sdl libav openh264 xcb ssh fontconfig nvenc
+media-libs/mlt sdl qt5 melt kdenlive
+media-libs/sdl-mixer mod  mikmod modplug
+sys-devel/gcc doc go graphite  objc objc++ sanitize
+sys-devel/binutils multitarget
+media-libs/mesa gles2
+net-fs/samba client
+dev-qt/qtcore icu
+media-libs/gexiv2 introspection
+dev-qt/qt-creator android autotools  clangcodemodel clangstaticanalyzer clearcase cmake cvs git doc nim modeling 
+media-libs/phonon-vlc qt5
+media-libs/phonon qt5
+media-libs/phonon-gstreamer qt5
+dev-python/ansible-lint -python_targets_python3_4
+app-text/asciidoc python_single_target_python2_7
+dev-qt/qtcore icu
+dev-libs/boost icu
+media-libs/harfbuzz icu
+media-libs/gst-plugins-base theora
+sys-auth/polkit-qt qt4
+dev-libs/libdbusmenu-qt qt4
+media-libs/phonon qt4
+app-crypt/qca qt4
+media-libs/phonon-vlc qt4
+x11-misc/taffybar doc hoogle hscolour
+dev-ruby/rake ruby_targets_ruby24
+net-libs/webkit-gtk  introspection
+sys-libs/ncurses tinfo
+dev-libs/libpcre2 pcre16
+x11-misc/xmobar inotify mpd mpris timezone wifi with_conduit with_uvmeter xft xpm
+x11-wm/mutter deprecated-background
+dev-qt/qtsql -qt3support
+dev-qt/qtcore -qt3support
+dev-qt/qtgui -qt3support
+dev-qt/qtopengl -qt3support
+sys-kernel/linux-firmware savedconfig
+gnome-base/gnome-settings-daemon policykit
+dev-qt/qtdeclarative qt3support
+dev-qt/qtsql qt3support
+dev-qt/qtcore qt3support
+dev-qt/qtgui qt3support
+dev-qt/qtopengl qt3support
+media-libs/mlt fftw
+x11-misc/rofi windowmode
+dev-ruby/rdoc ruby_targets_ruby24
+dev-ruby/racc ruby_targets_ruby24
+gnome-base/gvfs udisks
+app-text/poppler cairo
+dev-ruby/net-telnet ruby_targets_ruby24
+x11-libs/libxcb xkb
+dev-ruby/kpeg ruby_targets_ruby24
+media-video/vlc qt5
+sci-libs/plplot -dynamic
+dev-lang/go go_targets_linux_amd64
+media-libs/libsdl2 gles
+media-libs/mesa gles2
+media-libs/gst-plugins-bad egl
+media-libs/cogl gles2
+dev-lang/gdl -imagemagick fftw graphicsmagick
+dev-qt/qtgui -gles2
+media-sound/audacity doc id3tag jack libav sbsms vamp 
+media-video/simplescreenrecorder qt5
+dev-lang/gambas qt4
+x11-base/xorg-server glamor
+net-misc/networkmanager consolekit
+x11-base/xorg-server glamor
+media-libs/gegl cairo
+net-analyzer/dnsrecon -python_targets_python2_7
+net-analyzer/unicornscan -geoip -mysql
+dev-qt/qtgui -gles2
+net-analyzer/fierce python_targets_python3_6
+dev-python/certifi python_targets_python3_6
+dev-python/setuptools python_targets_python3_6
+dev-qt/qtgui -gles2
+dev-python/dnspython python_targets_python3_5
+dev-python/pycryptodome python_targets_python3_5
+virtual/python-cffi python_targets_python3_5
+x11-base/xorg-server glamor
+dev-lang/rust llvm_targets_X86
+dev-libs/nss utils
+dev-libs/liborcus -python
+dev-ruby/power_assert ruby_targets_ruby24
+>=media-video/ffmpeg-3.4.1 openssl
+dev-lang/python hardened
+net-wireless/hostapd -ssl
+dev-libs/libpeas -python_targets_python3_4 -python_targets_python3_5
+>=dev-qt/qtgui-4.8.7:4 -egl
+app-editors/vim -python_targets_python3_4 -python_targets_python3_5
+sys-fs/cryptsetup -openssl
+>=sys-kernel/genkernel-3.5.1.1 cryptsetup
+>=sys-devel/llvm-3.9.1-r1 clang
+>=dev-libs/elfutils-0.168 static-libs
+ dev-libs/glib utils
+>=sys-libs/ncurses-6.0-r1 -tinfo
+>=net-analyzer/fierce-1.2.0 -python_targets_python3_6
+dev-libs/libpeas python_targets_python3_5
+app-i18n/mozc emacs
+net-wireless/hostapd -wpe karma_cli
+>=net-wireless/n4p-2.2-r2 -wpe
+net-libs/libosmocore pcsc-lite
+=app-crypt/pinentry-1.0.0 gnome-keyring
+net-libs/libpcap usb
+dev-lang/erlang emacs java wxwidgets compat-ethread dirty-schedulers doc hipe kpoll odbc sctp smp tk
+net-analyzer/metasploit development nexpose openvas
+app-admin/testdisk ntfs qt4
+media-sound/mpd adplug ao audiofile expat fluidsynth gme jack libav libmpdclient libsamplerate libsoxr mikmod mms modplug mpg123 musepack opus oss pipe  sid soundcloud sqlite webdav wildmidi zeroconf zip
+app-emulation/docker btrfs
+dev-util/dub dmd-2_078 -selfhost
+dev-util/dlang-tools dmd-2_078
+media-libs/harfbuzz fontconfig
+media-libs/freetype fontforge harfbuzz utils
+dev-games/godot llvm theora pulseaudio udev icon
+>=app-crypt/pinentry-1.1.0_pre gnome-keyring
+net-im/pidgin ncurses
+www-client/firefox clang custom-cflags custom-optimization dbus gtk2 jack  jit  neon pgo pulseaudio rust startup-notification system-cairo system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite wifi eme-free hwaccel  
+dev-embedded/arduino doc examples
+

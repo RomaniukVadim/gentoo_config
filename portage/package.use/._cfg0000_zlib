@@ -1,5 +1,0 @@
->=sys-libs/zlib-1.2.8-r1 minizip
-
-# required by app-editors/emacs-24.5-r3::gentoo
-# required by virtual/emacs-24::gentoo
->=app-emacs/emacs-common-gentoo-1.5 games
